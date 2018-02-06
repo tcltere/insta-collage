@@ -8,22 +8,22 @@
  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-
+<!--Imagenes Arrastradas-->
 <div class="container img-content">
 	<div class="row">
-		<h2 class="text-center text-muted title">Galeria de imagenes</h2>
+		<h2 class="text-center text-muted title">Imagenes Destacadas</h2>
 	</div>
 	<div class="row">
-		<div class="col-md-3 col-sm-4 col-xs-6 gray">
-		  <figure></figure>
+      <div id="image" ondragover="permitirDrop(event)" ondrop="drop(event)" class="col-md-3">
+		  
 		</div>
-		<div class="col-md-3 col-sm-4 col-xs-6 shrink ">
-          <figure></figure>
+    <div id="image" ondragover="permitirDrop(event)" ondrop="drop(event)" class="col-md-3">
+          
 		</div>
-		<div class="col-md-3 col-sm-4 col-xs-6 vertpan">
-          <figure></figure>
+    <div id="image" ondragover="permitirDrop(event)" ondrop="drop(event)" class="col-md-3">
+          
 		</div>
-		<div class="col-md-3 col-sm-4 col-xs-6 tilt">
+    <div id="image" ondragover="permitirDrop(event)" ondrop="drop(event)"   class="col-md-3">
 			
 		</div>
 		
@@ -36,36 +36,34 @@
 		<h2 class="text-center text-muted title">Galeria de imagenes</h2>
 	</div>
 	<div class="row">
-		<div class="col-md-3 col-sm-4 col-xs-6 gray">
-			<img class="img-responsive" src="https://lorempixel.com/400/200/abstract/1/" />
+<div class="col-md-3 gray">
+          <img class="img-responsive" id="foto1" draggable="true" ondragstart="drag(event)" src="https://lorempixel.com/400/200/abstract/1/"/>
 		</div>
-		<div class="col-md-3 col-sm-4 col-xs-6 shrink ">
-			<img class="img-responsive" src="https://lorempixel.com/400/200/abstract/2/" />
+<div class="col-md-3 shrink">
+          <img class="img-responsive" id="foto2" draggable="true" ondragstart="drag(event)" src="https://lorempixel.com/400/200/abstract/2/"/>
 		</div>
-		<div class="col-md-3 col-sm-4 col-xs-6 vertpan">
-			<img class="img-responsive" src="https://lorempixel.com/400/200/abstract/3/" />
+<div class="col-md-3 vertpan">
+          <img class="img-responsive" id="foto3" draggable="true" ondragstart="drag(event)" src="https://lorempixel.com/400/200/abstract/3/"/>
 		</div>
-		<div class="col-md-3 col-sm-4 col-xs-6 tilt">
-			<img class="img-responsive" src="https://lorempixel.com/400/200/abstract/4/" />
+<div class="col-md-3 tilt">
+          <img class="img-responsive" id="foto4" draggable="true" ondragstart="drag(event)" src="https://lorempixel.com/400/200/abstract/4/"/>
 		</div>
-		<div class="col-md-3 col-sm-4 col-xs-6 gray">
-			<img class="img-responsive" src="https://lorempixel.com/400/200/abstract/5/" />
+<div class="col-md-3 gray">
+         <img class="img-responsive" id="foto5" draggable="true" ondragstart="drag(event)" src="https://lorempixel.com/400/200/abstract/5/"/>
 		</div>
-		<div class="col-md-3 col-sm-4 col-xs-6 shrink ">
-			<img class="img-responsive" src="https://lorempixel.com/400/200/abstract/6/" />
+<div class="col-md-3 shrink">
+          <img class="img-responsive" id="foto6" draggable="true" ondragstart="drag(event)" src="https://lorempixel.com/400/200/abstract/6/"/>
 		</div>
-		<div class="col-md-3 col-sm-4 col-xs-6 vertpan">
-			<img class="img-responsive" src="https://lorempixel.com/400/200/abstract/7/" />
+<div class="col-md-3 vertpan">
+          <img class="img-responsive" id="foto7" draggable="true" ondragstart="drag(event)" src="https://lorempixel.com/400/200/abstract/7/"/>
 		</div>
-		<div class="col-md-3 col-sm-4 col-xs-6 tilt">
-			<img class="img-responsive" src="https://lorempixel.com/400/200/abstract/8/" />
+<div class="col-md-3 tilt">
+         <img class="img-responsive" id="foto8" draggable="true" ondragstart="drag(event)" src="https://lorempixel.com/400/200/abstract/8/"/>
 		</div>
 	</div>
 </div>
-
-
-	
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="assets/js/app.js"></script>
 </body>
 </html>
