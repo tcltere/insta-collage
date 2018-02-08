@@ -1,4 +1,9 @@
 //Funciones drag & drop
+function dragStart(event) {
+    event.dataTransfer.setData("Text", event.target.id);
+    
+}
+
 
 function drag(ev) {
     console.log(ev.target.src);
