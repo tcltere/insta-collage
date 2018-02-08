@@ -5,7 +5,10 @@
 .img-content .title {
     margin-bottom: 20px;
 }
-
+.imagen{
+    height: 200px;
+    border: 1px solid #000;
+}
 img {
     -moz-box-shadow: 3px 3px 5px 6px #ccc;
     -webkit-box-shadow: 3px 3px 5px 6px #ccc;

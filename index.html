@@ -14,16 +14,13 @@
 		<h2 class="text-center text-muted title">Galeria de imagenes</h2>
 	</div>
 	<div class="row">
-		<div class="col-md-3 col-sm-4 col-xs-6 gray">
-		  <figure></figure>
+		<div class="col-md-3 imagen" ondragover="permitirDrop(event)" ondrop="drop(event)">
 		</div>
-		<div class="col-md-3 col-sm-4 col-xs-6 shrink ">
-          <figure></figure>
+		<div class="col-md-3 imagen" ondragover="permitirDrop(event)" ondrop="drop(event)">
 		</div>
-		<div class="col-md-3 col-sm-4 col-xs-6 vertpan">
-          <figure></figure>
+		<div class="col-md-3 imagen"ondragover="permitirDrop(event)" ondrop="drop(event)">
 		</div>
-		<div class="col-md-3 col-sm-4 col-xs-6 tilt">
+		<div class="col-md-3 imagen" ondragover="permitirDrop(event)" ondrop="drop(event)">
 			
 		</div>
 		
@@ -36,29 +33,29 @@
 		<h2 class="text-center text-muted title">Galeria de imagenes</h2>
 	</div>
 	<div class="row">
-		<div class="col-md-3 col-sm-4 col-xs-6 gray">
-			<img class="img-responsive" src="https://lorempixel.com/400/200/abstract/1/" />
+		<div class="col-md-3 gray">
+			<img id="foto1" class="img-responsive" draggable="true" ondragstart="drag(event)" src="https://lorempixel.com/400/200/abstract/1/"/>
 		</div>
-		<div class="col-md-3 col-sm-4 col-xs-6 shrink ">
-			<img class="img-responsive" src="https://lorempixel.com/400/200/abstract/2/" />
+		<div class="col-md-3 shrink ">
+			<img id="foto2" class="img-responsive" draggable="true" ondragstart="drag(event)" src="https://lorempixel.com/400/200/abstract/2/" />
 		</div>
-		<div class="col-md-3 col-sm-4 col-xs-6 vertpan">
-			<img class="img-responsive" src="https://lorempixel.com/400/200/abstract/3/" />
+		<div class="col-md-3 vertpan">
+			<img id="foto3" class="img-responsive" draggable="true" ondragstart="drag(event)" src="https://lorempixel.com/400/200/abstract/3/" />
 		</div>
-		<div class="col-md-3 col-sm-4 col-xs-6 tilt">
-			<img class="img-responsive" src="https://lorempixel.com/400/200/abstract/4/" />
+		<div class="col-md-3 tilt">
+			<img id="foto4" class="img-responsive" draggable="true" ondragstart="drag(event)" src="https://lorempixel.com/400/200/abstract/4/" />
 		</div>
-		<div class="col-md-3 col-sm-4 col-xs-6 gray">
-			<img class="img-responsive" src="https://lorempixel.com/400/200/abstract/5/" />
+		<div class="col-md-3 gray">
+			<img id="foto5" class="img-responsive" draggable="true" ondragstart="drag(event)" src="https://lorempixel.com/400/200/abstract/5/" />
 		</div>
-		<div class="col-md-3 col-sm-4 col-xs-6 shrink ">
-			<img class="img-responsive" src="https://lorempixel.com/400/200/abstract/6/" />
+		<div class="col-md-3 shrink ">
+			<img id="foto6" class="img-responsive" draggable="true" ondragstart="drag(event)" src="https://lorempixel.com/400/200/abstract/6/" />
 		</div>
-		<div class="col-md-3 col-sm-4 col-xs-6 vertpan">
-			<img class="img-responsive" src="https://lorempixel.com/400/200/abstract/7/" />
+		<div class="col-md-3 vertpan">
+			<img id="foto7" class="img-responsive" draggable="true" ondragstart="drag(event)" src="https://lorempixel.com/400/200/abstract/7/" />
 		</div>
-		<div class="col-md-3 col-sm-4 col-xs-6 tilt">
-			<img class="img-responsive" src="https://lorempixel.com/400/200/abstract/8/" />
+		<div class="col-md-3 tilt">
+			<img id="foto8" class="img-responsive" draggable="true" ondragstart="drag(event)" src="https://lorempixel.com/400/200/abstract/8/" />
 		</div>
 	</div>
 </div>
@@ -67,5 +64,6 @@
 	
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+ <script src="assets/js/app.js"></script>
 </body>
 </html>
